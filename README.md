@@ -7,11 +7,29 @@
 
 --javascript--
 --linguagem q define interações da pagina 
-  classe: cria um objeto com atributos
-  atributo: atributo da classe/obj/fodase
-  metodo: executa ação
-  get: se precisa executar uma ação antes de definir um atributo
-  set: define um atributo executando uma ação
-  public: atributo que qualquer coisa pode acessar
-  private: atributo que so pode acessar dentro da classe utilizando .this
-  .this: puxa a informação que nem existe ainda
+Classe: molde
+Objeto: cópia do molde
+
+Atributo: dado do objeto
+Variável: dado temporário
+
+Método: ação da classe
+Função: ação solta
+
+Construtor: cria o objeto
+
+Getter: pega valor
+Setter: muda valor
+
+Encapsulamento: protege dados
+
+Public: geral usa
+Private: só a classe
+Protected: classe + herda
+
+Static: é da classe
+
+Herança: uma puxa da outra
+
+this: eu mesmo
+super: pai
